@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+header {
+    background-color: #0056a7;
+    padding: 16px 0;
+    color: #cefc00;
+    display: flex;
+    border-bottom: 16px solid #cefc00;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+form {
+    background-color: #95c8ff;
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background-color: #cfcfcf;
+    border:hwb(from color h w b);
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #292929;
+}
+
+#lista-tarefas {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+}
